@@ -7,10 +7,10 @@ from tkinter import filedialog, messagebox, ttk
 from PIL import Image, ImageTk
 import numpy as np
 
-VERSION      = "1.0.0"
+VERSION      = "1.1.0"
 GITHUB_USER  = "FaRass898"
-GITHUB_REPO  = "improj-viewer"
-VERSION_URL  = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/main/image_tools_version.txt"
+GITHUB_REPO  = "image-tools"
+VERSION_URL  = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/main/version.txt"
 UPDATE_URL   = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/main/image_tools.py"
 
 Image.MAX_IMAGE_PIXELS = None
